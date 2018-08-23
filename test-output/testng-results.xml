@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28162" started-at="2018-08-23T11:12:20Z" finished-at="2018-08-23T11:12:48Z">
+    <groups>
+    </groups>
+    <test name="CreateNewCustomerLead" duration-ms="28162" started-at="2018-08-23T11:12:20Z" finished-at="2018-08-23T11:12:48Z">
+      <class name="com.training.tests.SearchCustomer">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.training.tests.SearchCustomer@4bee09]" name="BeforeSuite" is-config="true" duration-ms="276" started-at="2018-08-23T16:42:20Z" finished-at="2018-08-23T16:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:com.training.tests.SearchCustomer@4bee09]" name="automationSetup" is-config="true" duration-ms="17973" started-at="2018-08-23T16:42:20Z" finished-at="2018-08-23T16:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://brijb05:8083/Demo/DOXCOM.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationSetup -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:com.training.tests.SearchCustomer@4bee09]" name="verify" duration-ms="9073" started-at="2018-08-23T16:42:38Z" finished-at="2018-08-23T16:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:com.training.tests.SearchCustomer@4bee09]" name="automationTeardown" is-config="true" duration-ms="1103" started-at="2018-08-23T16:42:47Z" finished-at="2018-08-23T16:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTeardown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.tests.SearchCustomer@4bee09]" name="afterSuite" is-config="true" duration-ms="231" started-at="2018-08-23T16:42:48Z" finished-at="2018-08-23T16:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.tests.SearchCustomer -->
+    </test> <!-- CreateNewCustomerLead -->
+  </suite> <!-- Suite -->
+</testng-results>
